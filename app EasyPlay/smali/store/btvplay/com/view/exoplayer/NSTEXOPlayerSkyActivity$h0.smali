@@ -1,0 +1,294 @@
+.class public Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Landroid/view/View$OnFocusChangeListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "h0"
+.end annotation
+
+
+# instance fields
+.field public final b:Landroid/view/View;
+
+.field public final synthetic c:Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;
+
+
+# direct methods
+.method public constructor <init>(Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;Landroid/view/View;)V
+    .locals 0
+
+    iput-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->c:Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p2, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Z)V
+    .locals 3
+
+    if-eqz p1, :cond_1
+
+    if-eqz p1, :cond_0
+
+    const p1, 0x3f19999a    # 0.6f
+
+    goto :goto_0
+
+    :cond_0
+    const/high16 p1, 0x3f000000    # 0.5f
+
+    :goto_0
+    iget-object v0, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    const/4 v1, 0x1
+
+    new-array v1, v1, [F
+
+    const/4 v2, 0x0
+
+    aput p1, v1, v2
+
+    const-string p1, "alpha"
+
+    invoke-static {v0, p1, v1}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
+
+    move-result-object p1
+
+    const-wide/16 v0, 0x96
+
+    invoke-virtual {p1, v0, v1}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
+
+    invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final b(F)V
+    .locals 3
+
+    iget-object v0, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    const/4 v1, 0x1
+
+    new-array v1, v1, [F
+
+    const/4 v2, 0x0
+
+    aput p1, v1, v2
+
+    const-string p1, "scaleX"
+
+    invoke-static {v0, p1, v1}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
+
+    move-result-object p1
+
+    const-wide/16 v0, 0x96
+
+    invoke-virtual {p1, v0, v1}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
+
+    invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
+
+    return-void
+.end method
+
+.method public final c(F)V
+    .locals 3
+
+    iget-object v0, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    const/4 v1, 0x1
+
+    new-array v1, v1, [F
+
+    const/4 v2, 0x0
+
+    aput p1, v1, v2
+
+    const-string p1, "scaleY"
+
+    invoke-static {v0, p1, v1}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
+
+    move-result-object p1
+
+    const-wide/16 v0, 0x96
+
+    invoke-virtual {p1, v0, v1}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
+
+    invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
+
+    return-void
+.end method
+
+.method public onFocusChange(Landroid/view/View;Z)V
+    .locals 2
+    .annotation build Landroid/annotation/SuppressLint;
+        value = {
+            "ResourceType"
+        }
+    .end annotation
+
+    const-string v0, "1"
+
+    if-eqz p2, :cond_1
+
+    iget-object p2, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    if-eqz p2, :cond_0
+
+    invoke-virtual {p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object p2
+
+    if-eqz p2, :cond_0
+
+    iget-object p2, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    invoke-virtual {p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object p2
+
+    const-string v1, "2"
+
+    invoke-virtual {p2, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    iget-object p2, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->c:Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;
+
+    invoke-virtual {p2}, Ld/a/k/c;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p2
+
+    const v0, 0x7f0803fe
+
+    invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    goto :goto_0
+
+    :cond_0
+    const p1, 0x3f933333    # 1.15f
+
+    invoke-virtual {p0, p1}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b(F)V
+
+    invoke-virtual {p0, p1}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->c(F)V
+
+    iget-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    if-eqz p1, :cond_3
+
+    invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_3
+
+    iget-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_3
+
+    iget-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->c:Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;
+
+    invoke-static {p1}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;->w1(Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;)Landroid/widget/Button;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_3
+
+    iget-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->c:Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;
+
+    invoke-static {p1}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;->w1(Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;)Landroid/widget/Button;
+
+    move-result-object p1
+
+    const p2, 0x7f08006f
+
+    invoke-virtual {p1, p2}, Landroid/widget/Button;->setBackgroundResource(I)V
+
+    goto :goto_0
+
+    :cond_1
+    if-nez p2, :cond_3
+
+    iget-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    if-eqz p1, :cond_2
+
+    invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_2
+
+    iget-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    iget-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->c:Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;
+
+    invoke-static {p1}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;->w1(Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;)Landroid/widget/Button;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_2
+
+    iget-object p1, p0, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->c:Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;
+
+    invoke-static {p1}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;->w1(Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity;)Landroid/widget/Button;
+
+    move-result-object p1
+
+    const v0, 0x7f08007e
+
+    invoke-virtual {p1, v0}, Landroid/widget/Button;->setBackgroundResource(I)V
+
+    :cond_2
+    const/high16 p1, 0x3f800000    # 1.0f
+
+    invoke-virtual {p0, p1}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->b(F)V
+
+    invoke-virtual {p0, p1}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->c(F)V
+
+    invoke-virtual {p0, p2}, Lstore/btvplay/com/view/exoplayer/NSTEXOPlayerSkyActivity$h0;->a(Z)V
+
+    :cond_3
+    :goto_0
+    return-void
+.end method

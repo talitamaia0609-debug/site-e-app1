@@ -1,0 +1,80 @@
+.class public final Lf/f/a/b/u0/o/b;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lf/f/a/b/u0/e;
+
+
+# instance fields
+.field public final b:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lf/f/a/b/u0/b;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/List;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lf/f/a/b/u0/b;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lf/f/a/b/u0/o/b;->b:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public e(J)I
+    .locals 0
+
+    const/4 p1, -0x1
+
+    return p1
+.end method
+
+.method public f(I)J
+    .locals 2
+
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+.end method
+
+.method public g(J)Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J)",
+            "Ljava/util/List<",
+            "Lf/f/a/b/u0/b;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object p1, p0, Lf/f/a/b/u0/o/b;->b:Ljava/util/List;
+
+    return-object p1
+.end method
+
+.method public h()I
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method

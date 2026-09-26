@@ -1,0 +1,559 @@
+.class public interface abstract Lf/j/a/e/d/a;
+.super Ljava/lang/Object;
+.source ""
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "ticketid"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ")",
+            "Lq/b<",
+            "Lf/j/a/e/e/g;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # I
+        .annotation runtime Lq/q/c;
+            value = "clientid"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "I)",
+            "Lq/b<",
+            "Lf/j/a/e/e/h;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # I
+        .annotation runtime Lq/q/c;
+            value = "clientid"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "I)",
+            "Lq/b<",
+            "Lf/j/a/e/e/b;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # I
+        .annotation runtime Lq/q/c;
+            value = "clientid"
+        .end annotation
+    .end param
+    .param p6    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "status"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "I",
+            "Ljava/lang/String;",
+            ")",
+            "Lq/b<",
+            "Ljava/util/ArrayList<",
+            "Lf/j/a/e/e/a;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "message"
+        .end annotation
+    .end param
+    .param p5    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "deptid"
+        .end annotation
+    .end param
+    .param p6    # I
+        .annotation runtime Lq/q/c;
+            value = "clientid"
+        .end annotation
+    .end param
+    .param p7    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "subject"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "I",
+            "Ljava/lang/String;",
+            ")",
+            "Lq/b<",
+            "Lf/j/a/e/e/e;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # I
+        .annotation runtime Lq/q/c;
+            value = "clientid"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "I)",
+            "Lq/b<",
+            "Lf/j/a/e/e/f;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "message"
+        .end annotation
+    .end param
+    .param p6    # I
+        .annotation runtime Lq/q/c;
+            value = "clientid"
+        .end annotation
+    .end param
+    .param p7    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "ticketid"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "I",
+            "Ljava/lang/String;",
+            ")",
+            "Lq/b<",
+            "Lf/j/a/e/e/h;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # I
+        .annotation runtime Lq/q/c;
+            value = "userid"
+        .end annotation
+    .end param
+    .param p6    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "status"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "I",
+            "Ljava/lang/String;",
+            ")",
+            "Lq/b<",
+            "Lf/j/a/e/e/c;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "emailaddress"
+        .end annotation
+    .end param
+    .param p6    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "username"
+        .end annotation
+    .end param
+    .param p7    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "password"
+        .end annotation
+    .end param
+    .param p8    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "activation_code"
+        .end annotation
+    .end param
+    .param p9    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "app_package"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ")",
+            "Lq/b<",
+            "Lf/j/a/i/d;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method
+
+.method public abstract j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lq/b;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_username"
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "api_password"
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "command"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "custom"
+        .end annotation
+    .end param
+    .param p5    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "username"
+        .end annotation
+    .end param
+    .param p6    # Ljava/lang/String;
+        .annotation runtime Lq/q/c;
+            value = "password"
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ")",
+            "Lq/b<",
+            "Lf/j/a/e/e/d;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lq/q/e;
+    .end annotation
+
+    .annotation runtime Lq/q/m;
+        value = "modules/addons/AppProducts/response.php"
+    .end annotation
+.end method

@@ -1,0 +1,96 @@
+.class public Ld/m/q/h;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Ld/m/q/h$a;,
+        Ld/m/q/h$b;
+    }
+.end annotation
+
+
+# direct methods
+.method public static a(I)I
+    .locals 1
+
+    const/4 v0, 0x1
+
+    if-eq p0, v0, :cond_3
+
+    const/4 v0, 0x2
+
+    if-eq p0, v0, :cond_2
+
+    const/4 v0, 0x3
+
+    if-eq p0, v0, :cond_1
+
+    const/4 v0, 0x4
+
+    if-eq p0, v0, :cond_0
+
+    const/4 p0, 0x0
+
+    return p0
+
+    :cond_0
+    sget p0, Ld/m/e;->lb_focus_zoom_factor_xsmall:I
+
+    return p0
+
+    :cond_1
+    sget p0, Ld/m/e;->lb_focus_zoom_factor_large:I
+
+    return p0
+
+    :cond_2
+    sget p0, Ld/m/e;->lb_focus_zoom_factor_medium:I
+
+    return p0
+
+    :cond_3
+    sget p0, Ld/m/e;->lb_focus_zoom_factor_small:I
+
+    return p0
+.end method
+
+.method public static b(I)Z
+    .locals 0
+
+    if-eqz p0, :cond_1
+
+    invoke-static {p0}, Ld/m/q/h;->a(I)I
+
+    move-result p0
+
+    if-lez p0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    :goto_1
+    return p0
+.end method
+
+.method public static c(Ld/m/q/s;IZ)V
+    .locals 1
+
+    new-instance v0, Ld/m/q/h$a;
+
+    invoke-direct {v0, p1, p2}, Ld/m/q/h$a;-><init>(IZ)V
+
+    invoke-virtual {p0, v0}, Ld/m/q/s;->k0(Ld/m/q/g;)V
+
+    return-void
+.end method

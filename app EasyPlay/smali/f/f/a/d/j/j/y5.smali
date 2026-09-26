@@ -1,0 +1,1367 @@
+.class public final enum Lf/f/a/d/j/j/y5;
+.super Ljava/lang/Enum;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lf/f/a/d/j/j/y5;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final enum A:Lf/f/a/d/j/j/y5;
+
+.field public static final enum B:Lf/f/a/d/j/j/y5;
+
+.field public static final enum C:Lf/f/a/d/j/j/y5;
+
+.field public static final enum D:Lf/f/a/d/j/j/y5;
+
+.field public static final enum E:Lf/f/a/d/j/j/y5;
+
+.field public static final enum F:Lf/f/a/d/j/j/y5;
+
+.field public static final enum G:Lf/f/a/d/j/j/y5;
+
+.field public static final enum H:Lf/f/a/d/j/j/y5;
+
+.field public static final enum I:Lf/f/a/d/j/j/y5;
+
+.field public static final enum J:Lf/f/a/d/j/j/y5;
+
+.field public static final enum K:Lf/f/a/d/j/j/y5;
+
+.field public static final enum L:Lf/f/a/d/j/j/y5;
+
+.field public static final enum M:Lf/f/a/d/j/j/y5;
+
+.field public static final enum N:Lf/f/a/d/j/j/y5;
+
+.field public static final enum O:Lf/f/a/d/j/j/y5;
+
+.field public static final enum P:Lf/f/a/d/j/j/y5;
+
+.field public static final enum Q:Lf/f/a/d/j/j/y5;
+
+.field public static final enum R:Lf/f/a/d/j/j/y5;
+
+.field public static final enum S:Lf/f/a/d/j/j/y5;
+
+.field public static final enum T:Lf/f/a/d/j/j/y5;
+
+.field public static final enum U:Lf/f/a/d/j/j/y5;
+
+.field public static final enum V:Lf/f/a/d/j/j/y5;
+
+.field public static final enum W:Lf/f/a/d/j/j/y5;
+
+.field public static final enum X:Lf/f/a/d/j/j/y5;
+
+.field public static final enum Y:Lf/f/a/d/j/j/y5;
+
+.field public static final enum Z:Lf/f/a/d/j/j/y5;
+
+.field public static final enum a0:Lf/f/a/d/j/j/y5;
+
+.field public static final b0:[Lf/f/a/d/j/j/y5;
+
+.field public static final enum c:Lf/f/a/d/j/j/y5;
+
+.field public static final synthetic c0:[Lf/f/a/d/j/j/y5;
+
+.field public static final enum d:Lf/f/a/d/j/j/y5;
+
+.field public static final enum e:Lf/f/a/d/j/j/y5;
+
+.field public static final enum f:Lf/f/a/d/j/j/y5;
+
+.field public static final enum g:Lf/f/a/d/j/j/y5;
+
+.field public static final enum h:Lf/f/a/d/j/j/y5;
+
+.field public static final enum i:Lf/f/a/d/j/j/y5;
+
+.field public static final enum j:Lf/f/a/d/j/j/y5;
+
+.field public static final enum k:Lf/f/a/d/j/j/y5;
+
+.field public static final enum l:Lf/f/a/d/j/j/y5;
+
+.field public static final enum m:Lf/f/a/d/j/j/y5;
+
+.field public static final enum n:Lf/f/a/d/j/j/y5;
+
+.field public static final enum o:Lf/f/a/d/j/j/y5;
+
+.field public static final enum p:Lf/f/a/d/j/j/y5;
+
+.field public static final enum q:Lf/f/a/d/j/j/y5;
+
+.field public static final enum r:Lf/f/a/d/j/j/y5;
+
+.field public static final enum s:Lf/f/a/d/j/j/y5;
+
+.field public static final enum t:Lf/f/a/d/j/j/y5;
+
+.field public static final enum u:Lf/f/a/d/j/j/y5;
+
+.field public static final enum v:Lf/f/a/d/j/j/y5;
+
+.field public static final enum w:Lf/f/a/d/j/j/y5;
+
+.field public static final enum x:Lf/f/a/d/j/j/y5;
+
+.field public static final enum y:Lf/f/a/d/j/j/y5;
+
+.field public static final enum z:Lf/f/a/d/j/j/y5;
+
+
+# instance fields
+.field public final b:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 13
+
+    new-instance v6, Lf/f/a/d/j/j/y5;
+
+    sget-object v5, Lf/f/a/d/j/j/q6;->h:Lf/f/a/d/j/j/q6;
+
+    const-string v1, "DOUBLE"
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x1
+
+    move-object v0, v6
+
+    invoke-direct/range {v0 .. v5}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v6, Lf/f/a/d/j/j/y5;->c:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->g:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "FLOAT"
+
+    const/4 v9, 0x1
+
+    const/4 v10, 0x1
+
+    const/4 v11, 0x1
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->d:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "INT64"
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x2
+
+    const/4 v5, 0x1
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->e:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "UINT64"
+
+    const/4 v9, 0x3
+
+    const/4 v10, 0x3
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->f:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "INT32"
+
+    const/4 v3, 0x4
+
+    const/4 v4, 0x4
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->g:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "FIXED64"
+
+    const/4 v9, 0x5
+
+    const/4 v10, 0x5
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->h:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "FIXED32"
+
+    const/4 v3, 0x6
+
+    const/4 v4, 0x6
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->i:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->i:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "BOOL"
+
+    const/4 v9, 0x7
+
+    const/4 v10, 0x7
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->j:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->j:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "STRING"
+
+    const/16 v3, 0x8
+
+    const/16 v4, 0x8
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->k:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->m:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "MESSAGE"
+
+    const/16 v9, 0x9
+
+    const/16 v10, 0x9
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->l:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->k:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "BYTES"
+
+    const/16 v3, 0xa
+
+    const/16 v4, 0xa
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->m:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "UINT32"
+
+    const/16 v9, 0xb
+
+    const/16 v10, 0xb
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->n:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->l:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "ENUM"
+
+    const/16 v3, 0xc
+
+    const/16 v4, 0xc
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->o:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "SFIXED32"
+
+    const/16 v9, 0xd
+
+    const/16 v10, 0xd
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->p:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "SFIXED64"
+
+    const/16 v3, 0xe
+
+    const/16 v4, 0xe
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->q:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "SINT32"
+
+    const/16 v9, 0xf
+
+    const/16 v10, 0xf
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->r:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "SINT64"
+
+    const/16 v3, 0x10
+
+    const/16 v4, 0x10
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->s:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->m:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "GROUP"
+
+    const/16 v9, 0x11
+
+    const/16 v10, 0x11
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->t:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->h:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "DOUBLE_LIST"
+
+    const/16 v3, 0x12
+
+    const/16 v4, 0x12
+
+    const/4 v5, 0x2
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->u:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->g:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "FLOAT_LIST"
+
+    const/16 v9, 0x13
+
+    const/16 v10, 0x13
+
+    const/4 v11, 0x2
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->v:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "INT64_LIST"
+
+    const/16 v3, 0x14
+
+    const/16 v4, 0x14
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->w:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "UINT64_LIST"
+
+    const/16 v9, 0x15
+
+    const/16 v10, 0x15
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->x:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "INT32_LIST"
+
+    const/16 v3, 0x16
+
+    const/16 v4, 0x16
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->y:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "FIXED64_LIST"
+
+    const/16 v9, 0x17
+
+    const/16 v10, 0x17
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->z:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "FIXED32_LIST"
+
+    const/16 v3, 0x18
+
+    const/16 v4, 0x18
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->A:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->i:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "BOOL_LIST"
+
+    const/16 v9, 0x19
+
+    const/16 v10, 0x19
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->B:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->j:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "STRING_LIST"
+
+    const/16 v3, 0x1a
+
+    const/16 v4, 0x1a
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->C:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->m:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "MESSAGE_LIST"
+
+    const/16 v9, 0x1b
+
+    const/16 v10, 0x1b
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->D:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->k:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "BYTES_LIST"
+
+    const/16 v3, 0x1c
+
+    const/16 v4, 0x1c
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->E:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "UINT32_LIST"
+
+    const/16 v9, 0x1d
+
+    const/16 v10, 0x1d
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->F:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->l:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "ENUM_LIST"
+
+    const/16 v3, 0x1e
+
+    const/16 v4, 0x1e
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->G:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "SFIXED32_LIST"
+
+    const/16 v9, 0x1f
+
+    const/16 v10, 0x1f
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->H:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "SFIXED64_LIST"
+
+    const/16 v3, 0x20
+
+    const/16 v4, 0x20
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->I:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "SINT32_LIST"
+
+    const/16 v9, 0x21
+
+    const/16 v10, 0x21
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->J:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "SINT64_LIST"
+
+    const/16 v3, 0x22
+
+    const/16 v4, 0x22
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->K:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->h:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "DOUBLE_LIST_PACKED"
+
+    const/16 v9, 0x23
+
+    const/16 v10, 0x23
+
+    const/4 v11, 0x3
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->L:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->g:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "FLOAT_LIST_PACKED"
+
+    const/16 v3, 0x24
+
+    const/16 v4, 0x24
+
+    const/4 v5, 0x3
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->M:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "INT64_LIST_PACKED"
+
+    const/16 v9, 0x25
+
+    const/16 v10, 0x25
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->N:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "UINT64_LIST_PACKED"
+
+    const/16 v3, 0x26
+
+    const/16 v4, 0x26
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->O:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "INT32_LIST_PACKED"
+
+    const/16 v9, 0x27
+
+    const/16 v10, 0x27
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->P:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "FIXED64_LIST_PACKED"
+
+    const/16 v3, 0x28
+
+    const/16 v4, 0x28
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->Q:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "FIXED32_LIST_PACKED"
+
+    const/16 v9, 0x29
+
+    const/16 v10, 0x29
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->R:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->i:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "BOOL_LIST_PACKED"
+
+    const/16 v3, 0x2a
+
+    const/16 v4, 0x2a
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->S:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "UINT32_LIST_PACKED"
+
+    const/16 v9, 0x2b
+
+    const/16 v10, 0x2b
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->T:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->l:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "ENUM_LIST_PACKED"
+
+    const/16 v3, 0x2c
+
+    const/16 v4, 0x2c
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->U:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "SFIXED32_LIST_PACKED"
+
+    const/16 v9, 0x2d
+
+    const/16 v10, 0x2d
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->V:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "SFIXED64_LIST_PACKED"
+
+    const/16 v3, 0x2e
+
+    const/16 v4, 0x2e
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->W:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->e:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "SINT32_LIST_PACKED"
+
+    const/16 v9, 0x2f
+
+    const/16 v10, 0x2f
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->X:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->f:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "SINT64_LIST_PACKED"
+
+    const/16 v3, 0x30
+
+    const/16 v4, 0x30
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->Y:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v12, Lf/f/a/d/j/j/q6;->m:Lf/f/a/d/j/j/q6;
+
+    const-string v8, "GROUP_LIST"
+
+    const/16 v9, 0x31
+
+    const/16 v10, 0x31
+
+    const/4 v11, 0x2
+
+    move-object v7, v0
+
+    invoke-direct/range {v7 .. v12}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->Z:Lf/f/a/d/j/j/y5;
+
+    new-instance v0, Lf/f/a/d/j/j/y5;
+
+    sget-object v6, Lf/f/a/d/j/j/q6;->d:Lf/f/a/d/j/j/q6;
+
+    const-string v2, "MAP"
+
+    const/16 v3, 0x32
+
+    const/16 v4, 0x32
+
+    const/4 v5, 0x4
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lf/f/a/d/j/j/y5;-><init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+
+    sput-object v0, Lf/f/a/d/j/j/y5;->a0:Lf/f/a/d/j/j/y5;
+
+    const/16 v1, 0x33
+
+    new-array v1, v1, [Lf/f/a/d/j/j/y5;
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->c:Lf/f/a/d/j/j/y5;
+
+    const/4 v3, 0x0
+
+    aput-object v2, v1, v3
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->d:Lf/f/a/d/j/j/y5;
+
+    const/4 v4, 0x1
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->e:Lf/f/a/d/j/j/y5;
+
+    const/4 v4, 0x2
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->f:Lf/f/a/d/j/j/y5;
+
+    const/4 v4, 0x3
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->g:Lf/f/a/d/j/j/y5;
+
+    const/4 v4, 0x4
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->h:Lf/f/a/d/j/j/y5;
+
+    const/4 v4, 0x5
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->i:Lf/f/a/d/j/j/y5;
+
+    const/4 v4, 0x6
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->j:Lf/f/a/d/j/j/y5;
+
+    const/4 v4, 0x7
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->k:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x8
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->l:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x9
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->m:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0xa
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->n:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0xb
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->o:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0xc
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->p:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0xd
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->q:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0xe
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->r:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0xf
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->s:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x10
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->t:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x11
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->u:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x12
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->v:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x13
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->w:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x14
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->x:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x15
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->y:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x16
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->z:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x17
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->A:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x18
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->B:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x19
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->C:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x1a
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->D:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x1b
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->E:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x1c
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->F:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x1d
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->G:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x1e
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->H:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x1f
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->I:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x20
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->J:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x21
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->K:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x22
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->L:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x23
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->M:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x24
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->N:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x25
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->O:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x26
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->P:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x27
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->Q:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x28
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->R:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x29
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->S:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x2a
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->T:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x2b
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->U:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x2c
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->V:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x2d
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->W:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x2e
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->X:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x2f
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->Y:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x30
+
+    aput-object v2, v1, v4
+
+    sget-object v2, Lf/f/a/d/j/j/y5;->Z:Lf/f/a/d/j/j/y5;
+
+    const/16 v4, 0x31
+
+    aput-object v2, v1, v4
+
+    const/16 v2, 0x32
+
+    aput-object v0, v1, v2
+
+    sput-object v1, Lf/f/a/d/j/j/y5;->c0:[Lf/f/a/d/j/j/y5;
+
+    invoke-static {}, Lf/f/a/d/j/j/y5;->values()[Lf/f/a/d/j/j/y5;
+
+    move-result-object v0
+
+    array-length v1, v0
+
+    new-array v2, v1, [Lf/f/a/d/j/j/y5;
+
+    sput-object v2, Lf/f/a/d/j/j/y5;->b0:[Lf/f/a/d/j/j/y5;
+
+    :goto_0
+    if-ge v3, v1, :cond_0
+
+    aget-object v2, v0, v3
+
+    sget-object v4, Lf/f/a/d/j/j/y5;->b0:[Lf/f/a/d/j/j/y5;
+
+    iget v5, v2, Lf/f/a/d/j/j/y5;->b:I
+
+    aput-object v2, v4, v5
+
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;IIILf/f/a/d/j/j/q6;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(II",
+            "Lf/f/a/d/j/j/q6;",
+            ")V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput p3, p0, Lf/f/a/d/j/j/y5;->b:I
+
+    sget-object p1, Lf/f/a/d/j/j/q6;->d:Lf/f/a/d/j/j/q6;
+
+    add-int/lit8 p1, p4, -0x1
+
+    const/4 p2, 0x1
+
+    if-eq p1, p2, :cond_0
+
+    const/4 p3, 0x3
+
+    if-eq p1, p3, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p5}, Lf/f/a/d/j/j/q6;->e()Ljava/lang/Class;
+
+    :goto_0
+    if-ne p4, p2, :cond_1
+
+    invoke-virtual {p5}, Ljava/lang/Enum;->ordinal()I
+
+    :cond_1
+    return-void
+.end method
+
+.method public static values()[Lf/f/a/d/j/j/y5;
+    .locals 1
+
+    sget-object v0, Lf/f/a/d/j/j/y5;->c0:[Lf/f/a/d/j/j/y5;
+
+    invoke-virtual {v0}, [Lf/f/a/d/j/j/y5;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lf/f/a/d/j/j/y5;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a()I
+    .locals 1
+
+    iget v0, p0, Lf/f/a/d/j/j/y5;->b:I
+
+    return v0
+.end method

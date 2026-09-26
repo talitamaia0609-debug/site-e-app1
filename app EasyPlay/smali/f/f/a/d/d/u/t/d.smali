@@ -1,0 +1,921 @@
+.class public Lf/f/a/d/d/u/t/d;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lf/f/a/d/d/u/t/d$b;,
+        Lf/f/a/d/d/u/t/d$a;
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Lf/f/a/d/d/v/b;
+
+.field public b:J
+
+.field public final c:Lf/f/a/d/d/u/t/i;
+
+.field public d:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final e:Landroid/util/SparseIntArray;
+
+.field public f:Landroid/util/LruCache;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/util/LruCache<",
+            "Ljava/lang/Integer;",
+            "Lf/f/a/d/d/o;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final g:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final h:Ljava/util/Deque;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Deque<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final i:Landroid/os/Handler;
+
+.field public j:Ljava/util/TimerTask;
+
+.field public k:Lf/f/a/d/f/m/h;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lf/f/a/d/f/m/h<",
+            "Lf/f/a/d/d/u/t/i$c;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public l:Lf/f/a/d/f/m/h;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lf/f/a/d/f/m/h<",
+            "Lf/f/a/d/d/u/t/i$c;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public m:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Lf/f/a/d/d/u/t/d$a;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lf/f/a/d/d/u/t/i;)V
+    .locals 1
+
+    const/16 v0, 0x14
+
+    invoke-direct {p0, p1, v0, v0}, Lf/f/a/d/d/u/t/d;-><init>(Lf/f/a/d/d/u/t/i;II)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lf/f/a/d/d/u/t/i;II)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance p2, Ljava/util/HashSet;
+
+    invoke-direct {p2}, Ljava/util/HashSet;-><init>()V
+
+    iput-object p2, p0, Lf/f/a/d/d/u/t/d;->m:Ljava/util/Set;
+
+    new-instance p2, Lf/f/a/d/d/v/b;
+
+    const-string p3, "MediaQueue"
+
+    invoke-direct {p2, p3}, Lf/f/a/d/d/v/b;-><init>(Ljava/lang/String;)V
+
+    iput-object p2, p0, Lf/f/a/d/d/u/t/d;->a:Lf/f/a/d/d/v/b;
+
+    iput-object p1, p0, Lf/f/a/d/d/u/t/d;->c:Lf/f/a/d/d/u/t/i;
+
+    const/16 p2, 0x14
+
+    const/4 p3, 0x1
+
+    invoke-static {p2, p3}, Ljava/lang/Math;->max(II)I
+
+    new-instance p3, Ljava/util/ArrayList;
+
+    invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object p3, p0, Lf/f/a/d/d/u/t/d;->d:Ljava/util/List;
+
+    new-instance p3, Landroid/util/SparseIntArray;
+
+    invoke-direct {p3}, Landroid/util/SparseIntArray;-><init>()V
+
+    iput-object p3, p0, Lf/f/a/d/d/u/t/d;->e:Landroid/util/SparseIntArray;
+
+    new-instance p3, Ljava/util/ArrayList;
+
+    invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object p3, p0, Lf/f/a/d/d/u/t/d;->g:Ljava/util/List;
+
+    new-instance p3, Ljava/util/ArrayDeque;
+
+    invoke-direct {p3, p2}, Ljava/util/ArrayDeque;-><init>(I)V
+
+    iput-object p3, p0, Lf/f/a/d/d/u/t/d;->h:Ljava/util/Deque;
+
+    new-instance p3, Lf/f/a/d/j/e/w0;
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v0
+
+    invoke-direct {p3, v0}, Lf/f/a/d/j/e/w0;-><init>(Landroid/os/Looper;)V
+
+    iput-object p3, p0, Lf/f/a/d/d/u/t/d;->i:Landroid/os/Handler;
+
+    new-instance p3, Lf/f/a/d/d/u/t/v0;
+
+    invoke-direct {p3, p0}, Lf/f/a/d/d/u/t/v0;-><init>(Lf/f/a/d/d/u/t/d;)V
+
+    iput-object p3, p0, Lf/f/a/d/d/u/t/d;->j:Ljava/util/TimerTask;
+
+    new-instance p3, Lf/f/a/d/d/u/t/d$b;
+
+    invoke-direct {p3, p0}, Lf/f/a/d/d/u/t/d$b;-><init>(Lf/f/a/d/d/u/t/d;)V
+
+    invoke-virtual {p1, p3}, Lf/f/a/d/d/u/t/i;->N(Lf/f/a/d/d/u/t/i$a;)V
+
+    invoke-virtual {p0, p2}, Lf/f/a/d/d/u/t/d;->C(I)V
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->r()J
+
+    move-result-wide p1
+
+    iput-wide p1, p0, Lf/f/a/d/d/u/t/d;->b:J
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->d()V
+
+    return-void
+.end method
+
+.method public static synthetic B(Lf/f/a/d/d/u/t/d;)J
+    .locals 2
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->r()J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public static synthetic e(Lf/f/a/d/d/u/t/d;)V
+    .locals 0
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->s()V
+
+    return-void
+.end method
+
+.method public static synthetic f(Lf/f/a/d/d/u/t/d;II)V
+    .locals 0
+
+    invoke-virtual {p0, p1, p2}, Lf/f/a/d/d/u/t/d;->i(II)V
+
+    return-void
+.end method
+
+.method public static synthetic g(Lf/f/a/d/d/u/t/d;[I)V
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lf/f/a/d/d/u/t/d;->y([I)V
+
+    return-void
+.end method
+
+.method public static synthetic j(Lf/f/a/d/d/u/t/d;)V
+    .locals 0
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->u()V
+
+    return-void
+.end method
+
+.method public static synthetic k(Lf/f/a/d/d/u/t/d;[I)V
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lf/f/a/d/d/u/t/d;->A([I)V
+
+    return-void
+.end method
+
+.method public static synthetic q(Lf/f/a/d/d/u/t/d;)V
+    .locals 0
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->t()V
+
+    return-void
+.end method
+
+.method public static synthetic x(Lf/f/a/d/d/u/t/d;)V
+    .locals 0
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->w()V
+
+    return-void
+.end method
+
+.method public static synthetic z(Lf/f/a/d/d/u/t/d;)V
+    .locals 0
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->v()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A([I)V
+    .locals 2
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->m:Ljava/util/Set;
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lf/f/a/d/d/u/t/d$a;
+
+    invoke-virtual {v1, p1}, Lf/f/a/d/d/u/t/d$a;->c([I)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final C(I)V
+    .locals 1
+
+    new-instance v0, Lf/f/a/d/d/u/t/x0;
+
+    invoke-direct {v0, p0, p1}, Lf/f/a/d/d/u/t/x0;-><init>(Lf/f/a/d/d/u/t/d;I)V
+
+    iput-object v0, p0, Lf/f/a/d/d/u/t/d;->f:Landroid/util/LruCache;
+
+    return-void
+.end method
+
+.method public final a()V
+    .locals 1
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->u()V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->d:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->clear()V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->e:Landroid/util/SparseIntArray;
+
+    invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->f:Landroid/util/LruCache;
+
+    invoke-virtual {v0}, Landroid/util/LruCache;->evictAll()V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->g:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->clear()V
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->n()V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->h:Ljava/util/Deque;
+
+    invoke-interface {v0}, Ljava/util/Deque;->clear()V
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->o()V
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->p()V
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->w()V
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->v()V
+
+    return-void
+.end method
+
+.method public b(I)I
+    .locals 2
+
+    const-string v0, "Must be called from the main thread."
+
+    invoke-static {v0}, Lf/f/a/d/f/o/s;->f(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->e:Landroid/util/SparseIntArray;
+
+    const/4 v1, -0x1
+
+    invoke-virtual {v0, p1, v1}, Landroid/util/SparseIntArray;->get(II)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public c(I)I
+    .locals 1
+
+    const-string v0, "Must be called from the main thread."
+
+    invoke-static {v0}, Lf/f/a/d/f/o/s;->f(Ljava/lang/String;)V
+
+    if-ltz p1, :cond_0
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->d:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    if-ge p1, v0, :cond_0
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->d:Ljava/util/List;
+
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/Integer;
+
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result p1
+
+    return p1
+
+    :cond_0
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public final d()V
+    .locals 5
+
+    const-string v0, "Must be called from the main thread."
+
+    invoke-static {v0}, Lf/f/a/d/f/o/s;->f(Ljava/lang/String;)V
+
+    iget-wide v0, p0, Lf/f/a/d/d/u/t/d;->b:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v4, v0, v2
+
+    if-nez v4, :cond_0
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->l:Lf/f/a/d/f/m/h;
+
+    if-eqz v0, :cond_1
+
+    return-void
+
+    :cond_1
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->o()V
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->p()V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->c:Lf/f/a/d/d/u/t/i;
+
+    invoke-virtual {v0}, Lf/f/a/d/d/u/t/i;->j0()Lf/f/a/d/f/m/h;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lf/f/a/d/d/u/t/d;->l:Lf/f/a/d/f/m/h;
+
+    new-instance v1, Lf/f/a/d/d/u/t/u0;
+
+    invoke-direct {v1, p0}, Lf/f/a/d/d/u/t/u0;-><init>(Lf/f/a/d/d/u/t/d;)V
+
+    invoke-virtual {v0, v1}, Lf/f/a/d/f/m/h;->c(Lf/f/a/d/f/m/m;)V
+
+    return-void
+.end method
+
+.method public final h(Lf/f/a/d/d/u/t/i$c;)V
+    .locals 4
+
+    invoke-interface {p1}, Lf/f/a/d/f/m/l;->j()Lcom/google/android/gms/common/api/Status;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->p()I
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v1, p0, Lf/f/a/d/d/u/t/d;->a:Lf/f/a/d/d/v/b;
+
+    const/4 v2, 0x2
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    const/4 v3, 0x0
+
+    aput-object v0, v2, v3
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->x()Ljava/lang/String;
+
+    move-result-object p1
+
+    aput-object p1, v2, v0
+
+    const-string p1, "Error fetching queue items, statusCode=%s, statusMessage=%s"
+
+    invoke-static {p1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    new-array v0, v3, [Ljava/lang/Object;
+
+    invoke-virtual {v1, p1, v0}, Lf/f/a/d/d/v/b;->g(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    :cond_0
+    const/4 p1, 0x0
+
+    iput-object p1, p0, Lf/f/a/d/d/u/t/d;->k:Lf/f/a/d/f/m/h;
+
+    iget-object p1, p0, Lf/f/a/d/d/u/t/d;->h:Ljava/util/Deque;
+
+    invoke-interface {p1}, Ljava/util/Deque;->isEmpty()Z
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->m()V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final i(II)V
+    .locals 2
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->m:Ljava/util/Set;
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lf/f/a/d/d/u/t/d$a;
+
+    invoke-virtual {v1, p1, p2}, Lf/f/a/d/d/u/t/d$a;->a(II)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final l(Lf/f/a/d/d/u/t/i$c;)V
+    .locals 4
+
+    invoke-interface {p1}, Lf/f/a/d/f/m/l;->j()Lcom/google/android/gms/common/api/Status;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->p()I
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v1, p0, Lf/f/a/d/d/u/t/d;->a:Lf/f/a/d/d/v/b;
+
+    const/4 v2, 0x2
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    const/4 v3, 0x0
+
+    aput-object v0, v2, v3
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->x()Ljava/lang/String;
+
+    move-result-object p1
+
+    aput-object p1, v2, v0
+
+    const-string p1, "Error fetching queue item ids, statusCode=%s, statusMessage=%s"
+
+    invoke-static {p1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    new-array v0, v3, [Ljava/lang/Object;
+
+    invoke-virtual {v1, p1, v0}, Lf/f/a/d/d/v/b;->g(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    :cond_0
+    const/4 p1, 0x0
+
+    iput-object p1, p0, Lf/f/a/d/d/u/t/d;->l:Lf/f/a/d/f/m/h;
+
+    iget-object p1, p0, Lf/f/a/d/d/u/t/d;->h:Ljava/util/Deque;
+
+    invoke-interface {p1}, Ljava/util/Deque;->isEmpty()Z
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->m()V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final m()V
+    .locals 4
+
+    invoke-virtual {p0}, Lf/f/a/d/d/u/t/d;->n()V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->i:Landroid/os/Handler;
+
+    iget-object v1, p0, Lf/f/a/d/d/u/t/d;->j:Ljava/util/TimerTask;
+
+    const-wide/16 v2, 0x1f4
+
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    return-void
+.end method
+
+.method public final n()V
+    .locals 2
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->i:Landroid/os/Handler;
+
+    iget-object v1, p0, Lf/f/a/d/d/u/t/d;->j:Ljava/util/TimerTask;
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    return-void
+.end method
+
+.method public final o()V
+    .locals 1
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->l:Lf/f/a/d/f/m/h;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lf/f/a/d/f/m/h;->b()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lf/f/a/d/d/u/t/d;->l:Lf/f/a/d/f/m/h;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final p()V
+    .locals 1
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->k:Lf/f/a/d/f/m/h;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lf/f/a/d/f/m/h;->b()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lf/f/a/d/d/u/t/d;->k:Lf/f/a/d/f/m/h;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final r()J
+    .locals 2
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->c:Lf/f/a/d/d/u/t/i;
+
+    invoke-virtual {v0}, Lf/f/a/d/d/u/t/i;->l()Lf/f/a/d/d/q;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lf/f/a/d/d/q;->f0()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v0}, Lf/f/a/d/d/q;->e0()J
+
+    move-result-wide v0
+
+    return-wide v0
+
+    :cond_1
+    :goto_0
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+.end method
+
+.method public final s()V
+    .locals 5
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->h:Ljava/util/Deque;
+
+    invoke-interface {v0}, Ljava/util/Deque;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->k:Lf/f/a/d/f/m/h;
+
+    if-nez v0, :cond_1
+
+    iget-wide v0, p0, Lf/f/a/d/d/u/t/d;->b:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v4, v0, v2
+
+    if-eqz v4, :cond_1
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->c:Lf/f/a/d/d/u/t/i;
+
+    iget-object v1, p0, Lf/f/a/d/d/u/t/d;->h:Ljava/util/Deque;
+
+    invoke-static {v1}, Lf/f/a/d/d/v/a;->g(Ljava/util/Collection;)[I
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Lf/f/a/d/d/u/t/i;->q0([I)Lf/f/a/d/f/m/h;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lf/f/a/d/d/u/t/d;->k:Lf/f/a/d/f/m/h;
+
+    new-instance v1, Lf/f/a/d/d/u/t/w0;
+
+    invoke-direct {v1, p0}, Lf/f/a/d/d/u/t/w0;-><init>(Lf/f/a/d/d/u/t/d;)V
+
+    invoke-virtual {v0, v1}, Lf/f/a/d/f/m/h;->c(Lf/f/a/d/f/m/m;)V
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->h:Ljava/util/Deque;
+
+    invoke-interface {v0}, Ljava/util/Deque;->clear()V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final t()V
+    .locals 3
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->e:Landroid/util/SparseIntArray;
+
+    invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V
+
+    const/4 v0, 0x0
+
+    :goto_0
+    iget-object v1, p0, Lf/f/a/d/d/u/t/d;->d:Ljava/util/List;
+
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result v1
+
+    if-ge v0, v1, :cond_0
+
+    iget-object v1, p0, Lf/f/a/d/d/u/t/d;->d:Ljava/util/List;
+
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/Integer;
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    iget-object v2, p0, Lf/f/a/d/d/u/t/d;->e:Landroid/util/SparseIntArray;
+
+    invoke-virtual {v2, v1, v0}, Landroid/util/SparseIntArray;->put(II)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final u()V
+    .locals 2
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->m:Ljava/util/Set;
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lf/f/a/d/d/u/t/d$a;
+
+    invoke-virtual {v1}, Lf/f/a/d/d/u/t/d$a;->f()V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final v()V
+    .locals 2
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->m:Ljava/util/Set;
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lf/f/a/d/d/u/t/d$a;
+
+    invoke-virtual {v1}, Lf/f/a/d/d/u/t/d$a;->e()V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final w()V
+    .locals 2
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->m:Ljava/util/Set;
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lf/f/a/d/d/u/t/d$a;
+
+    invoke-virtual {v1}, Lf/f/a/d/d/u/t/d$a;->b()V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final y([I)V
+    .locals 2
+
+    iget-object v0, p0, Lf/f/a/d/d/u/t/d;->m:Ljava/util/Set;
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lf/f/a/d/d/u/t/d$a;
+
+    invoke-virtual {v1, p1}, Lf/f/a/d/d/u/t/d$a;->d([I)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method

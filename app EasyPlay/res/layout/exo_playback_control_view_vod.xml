@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ll_allcontrols" android:background="#cc000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/testinglayout" android:paddingTop="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffbebebe" android:id="@id/exo_position" android:paddingLeft="4.0dp" android:paddingRight="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <com.google.android.exoplayer2.ui.DefaultTimeBar android:id="@id/exo_progress" android:layout_width="0.0dp" android:layout_height="26.0dp" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffbebebe" android:id="@id/exo_duration" android:paddingLeft="4.0dp" android:paddingRight="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/btn_aspect_ratio" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.AspectRatio" />
+            <ImageButton android:id="@id/exo_prevv" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.Previous" />
+            <ImageButton android:id="@id/exo_reww" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.Rewind" />
+            <ImageButton android:id="@id/exo_shuffle" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.Shuffle" />
+            <ImageButton android:id="@id/exo_repeat_toggle" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton" />
+            <ImageButton android:id="@id/exo_play" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.Play" />
+            <ImageButton android:id="@id/exo_pause" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.Pause" />
+            <ImageButton android:id="@id/exo_ffwdd" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.FastForward" />
+            <ImageButton android:id="@id/exo_nextt" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.Next" />
+            <ImageButton android:id="@id/exo_subtitlee" android:background="@drawable/selector_checkbox" android:focusable="true" style="@style/ExoMediaButton.Subtitle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
